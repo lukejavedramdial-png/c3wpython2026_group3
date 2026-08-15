@@ -6,8 +6,8 @@ class RiverGameScore:
     def collect_food(self, food_type):
         """Add points based on the food item collected."""
         food_points = {
-            "berries": 10,
-            "fish": 20,
+            "duck food": 5,
+            "duck food": 5,
             "large_game": 50
         }
         points = food_points.get(food_type, 5)
