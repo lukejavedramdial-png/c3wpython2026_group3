@@ -29,9 +29,3 @@ class RiverGameScore:
         else:
             print("You did not survive the river.")
 
-# Example usage:
-game = RiverGameScore()
-game.collect_food("fish")
-game.hit_obstacle()
-game.finish_crossing()
-print(f"Final Score: {game.score}")
